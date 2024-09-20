@@ -1,0 +1,43 @@
+body {
+    flex-direction: column;
+}
+/*header*/
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+.top-header {
+    
+    display: flex;
+    justify-content: space-between;
+}
+.links {
+    flex-direction: row;
+    gap: 10px;
+    display: flex;
+}
+ul {
+    list-style-type: none;
+}
+
+li {
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+.sign-up {
+    background-color: #3882F6;
+}
+.logo {
+    display: flex;
+}
+

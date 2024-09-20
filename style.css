@@ -5,7 +5,7 @@ body {
     flex: 1;
 }
 .header, .middle-top, .middle, .middle-bottom, footer {
-    padding: 10px 10%;
+    padding: 10px 20%;
     margin: auto;
 }
 
@@ -13,6 +13,7 @@ body {
 .header {
     background-color: #1F2937;
     color: #F9FAF8;
+    font-family: 'Hero';
 }
 .logo {
     display: flex;
@@ -48,8 +49,8 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     color:#F9FAF8;
 }
 .main-text {
@@ -60,10 +61,8 @@ a {
 .sign-up {
     background-color: #3882F6;
     border-radius: 15px;
-    padding: 10px 10%;
+    padding: 10px 30px;
     color:#F9FAF8;
-    width:auto;
-    height: auto;
 
 }
 .img {
@@ -125,25 +124,31 @@ img {
 .middle-bottom {
     
     color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
 
 }
 
 .emphasis {
     background-color:#3882F6;
-    margin: 10px 10%;
     display: flex;
     justify-content: space-between;
     padding: 10px 10%;
-    border-radius: 15px;
+    border-radius: 5px;
+    align-items: center;
 }
-
-.emphasis .sign-up{
-    max-width: auto;
-    max-height: auto;
+.button .sign-up {
+    border-color:#F9FAF8;
+    outline-style: none;
 }
 /*footer*/ 
 
 .footer {
     display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color:#1F2937;
+    color:#F9FAF8;
 
 }

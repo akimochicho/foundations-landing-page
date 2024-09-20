@@ -2,9 +2,11 @@ body {
     flex-direction: column;
     padding: 0;
     margin: 0;
+    flex: 1;
 }
 .header, .middle-top, .middle, .middle-bottom, footer {
     padding: 10px 10%;
+    margin: auto;
 }
 
 /*header*/
@@ -48,18 +50,20 @@ a {
     align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    color:#F9FAF8;
 }
 .main-text {
 
     font-size: 48px;
     font-weight: 900;
-    color: #F9FAF8;
 }
 .sign-up {
     background-color: #3882F6;
-    color: #F9FAF8;
     border-radius: 15px;
     padding: 10px 10%;
+    color:#F9FAF8;
+    width:auto;
+    height: auto;
 
 }
 .img {
@@ -75,6 +79,13 @@ img {
     text-align: center;
     flex-direction: row;
     justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.ran-text {
+    font-size: 36px; 
+    color: #1F2936;
+    font-weight: 900;
 }
 .info {
    display: flex;
@@ -88,5 +99,51 @@ img {
 }
 .info img{
     max-width: 150px;
+    border-radius: 15px;
 }
 /*middle*/
+.middle {
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+}
+
+.quote {
+
+    padding: 60px;
+    font-size: 36px;
+    font-style: italic;
+    
+}
+.quote p {
+    font-style: normal;
+    font-weight: 100;
+    text-align: right;
+}
+/*middle-bottom*/
+
+.middle-bottom {
+    
+    color: white;
+
+}
+
+.emphasis {
+    background-color:#3882F6;
+    margin: 10px 10%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10%;
+    border-radius: 15px;
+}
+
+.emphasis .sign-up{
+    max-width: auto;
+    max-height: auto;
+}
+/*footer*/ 
+
+.footer {
+    display: flex;
+
+}

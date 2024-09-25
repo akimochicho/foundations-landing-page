@@ -2,8 +2,7 @@ body {
     flex-direction: column;
     padding: 0;
     margin: 0;
-    flex: 1;
-    font-family: Hero;
+    font-family: Hero, Roboto, sans-serif ;
 }
 .header, .middle-top, .middle, .middle-bottom, footer {
     padding: 10px 20%;
@@ -104,7 +103,7 @@ img {
     
 }
 .info img{
-    max-width: 60%;
+    max-width: 50%;
     border-radius: 15px;
 }
 /*middle*/
@@ -118,7 +117,7 @@ img {
     padding: 60px;
     font-size: 36px;
     font-style: italic;
-    font-weight: 100;
+    font-weight: 50;
     
 }
 .quote p {

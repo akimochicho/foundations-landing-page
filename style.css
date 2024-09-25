@@ -2,7 +2,7 @@ body {
     flex-direction: column;
     padding: 0;
     margin: 0;
-
+    flex: 1;
     font-family: Hero;
 }
 .header, .middle-top, .middle, .middle-bottom, footer {
